@@ -1,0 +1,40 @@
+.wrapper1 
+{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url('../IMAGE/Background.png') no-repeat;
+	background-size: cover;
+}
+
+.inner1
+{
+    max-width: 850px;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4); 
+}
+
+.FormPass
+{
+  margin: 50px;
+}
+
+.FormPass p {
+    text-align: center;
+}
+
+@media (max-width: 767px) 
+  {
+    .inner1 {
+        margin: 40px;
+        display: block; }
+
+    .form-holder {
+        margin-right: 50px; }
+  }

@@ -1,0 +1,43 @@
+.item {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    padding: 5px 0px;
+    margin: 10px 12px;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.img-item {
+    width: 250px;
+    height: 250px;
+    margin: 10px 0px;
+}
+
+.item h3
+{
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.item p
+{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.btn-item {
+   margin: auto;
+   width: 80%;
+   border-radius: 30px;
+   background-color: dimgrey;
+}

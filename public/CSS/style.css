@@ -1,0 +1,33 @@
+@import 'form.css';
+@import 'layout.css';
+@import 'formpass.css';
+@import 'home.css';
+@import 'product.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;800&family=Courgette&family=Ravi+Prakash&family=Yantramanav&display=swap');
+
+body 
+{
+    font-family: 'Yantramanav', sans-serif;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    margin: 0;
+ }
+
+a 
+{   
+    font-size: 16px;
+    text-decoration: none;
+    color: #FF9AA2;
+}
+    
+a:hover 
+{
+    text-decoration: none;
+    color: #FF9AA2; 
+}
+
+:focus {
+    outline: none;
+}
